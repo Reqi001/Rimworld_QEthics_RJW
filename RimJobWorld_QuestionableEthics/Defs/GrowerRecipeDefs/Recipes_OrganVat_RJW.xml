@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- base QEthics organ recipe -->
+	<QEthics.GrowerRecipeDef Name="NaturalOrganGrowerRecipeBase" Abstract="True">
+		<productAmount>1</productAmount>
+		<craftingTime>300000</craftingTime>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>QE_NutrientSolution</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>QE_ProteinMash</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<productGraphic>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Effects/Organs/Shinzy_Organ</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<drawRotated>false</drawRotated>
+		</productGraphic>
+		<recipeUsers>
+			<li>QE_OrganVat</li>
+		</recipeUsers>
+	</QEthics.GrowerRecipeDef>
+
+	<!-- 
+	////////////////////////////////////////////
+	               Human bits 
+	////////////////////////////////////////////
+	-->
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>RePenis_A</defName>
+		<label>average penis</label>
+		<productDef>Penis</productDef>
+		<!--<productAmount>1</productAmount> -->
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>RePenis_M</defName>
+		<label>micro penis</label>
+		<productDef>MicroPenis</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>RePenis_S</defName>
+		<label>small penis</label>
+		<productDef>SmallPenis</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>RePenis_B</defName>
+		<label>big penis</label>
+		<productDef>BigPenis</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>RePenis_H</defName>
+		<label>huge penis</label>
+		<productDef>HugePenis</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<!-- Vaginas -->
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReVag_A</defName>
+		<label>average vagina</label>
+		<productDef>Vagina</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReVag_M</defName>
+		<label>micro vagina</label>
+		<productDef>MicroVagina</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReVag_T</defName>
+		<label>tight vagina</label>
+		<productDef>TightVagina</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReVag_L</defName>
+		<label>loose vagina</label>
+		<productDef>LooseVagina</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReVag_L</defName>
+		<label>loose vagina</label>
+		<productDef>LooseVagina</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<!-- Breasts -->
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReBre_A</defName>
+		<label>average breasts</label>
+		<productDef>Breasts</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReBre_F</defName>
+		<label>flat breasts</label>
+		<productDef>FlatBreasts</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReBre_S</defName>
+		<label>small breasts</label>
+		<productDef>SmallBreasts</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReBre_L</defName>
+		<label>large breasts</label>
+		<productDef>LargeBreasts</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReBre_H</defName>
+		<label>huge breasts</label>
+		<productDef>HugeBreasts</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<!-- Anuses -->
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReAnu_A</defName>
+		<label>average anus</label>
+		<productDef>Anus</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReAnu_M</defName>
+		<label>micro anus</label>
+		<productDef>MicroAnus</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReAnu_T</defName>
+		<label>tight anus</label>
+		<productDef>TightAnus</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReAnu_L</defName>
+		<label>loose anus</label>
+		<productDef>LooseAnus</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+	<QEthics.GrowerRecipeDef ParentName="NaturalOrganGrowerRecipeBase">
+		<defName>ReAnu_G</defName>
+		<label>gaping anus</label>
+		<productDef>GapingAnus</productDef>
+		<requiredResearch>QE_RJW_Reproductive_Human</requiredResearch>
+	</QEthics.GrowerRecipeDef>
+	
+</Defs>

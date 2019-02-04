@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Research Tabs 
+	<ResearchTabDef>
+		<defName>QE_ResearchTab</defName>
+		<label>Questionable Ethics</label>
+	</ResearchTabDef>
+	-->
+	<!-- Research Reproductive Organs -->
+	<ResearchProjectDef>
+		<defName>QE_RJW_Reproductive_Human</defName>
+		<tab>QE_ResearchTab</tab>
+		<label>Human Reproductive Organs</label>
+		<description>Unlocks the ablility to grow natural Human reproductive organs</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>QE_OrganVat</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>QE_RJW_Reproductive_Animals</defName>
+		<tab>QE_ResearchTab</tab>
+		<label>Animal Reproductive Organs</label>
+		<description>Unlocks the ablility to grow natural Animal reproductive organs</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>QE_RJW_Reproductive_Human</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>QE_RJW_Reproductive_Other</defName>
+		<tab>QE_ResearchTab</tab>
+		<label>Other Reproductive Organs</label>
+		<description>The **** are these?!</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>QE_RJW_Reproductive_Animals</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>RimJobWorld - Questionable Ethics</name>
+	<author>Reqi</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>version 1.9.4
+		M for Mature
+		Load mod at bottom of mod list:
+		Core
+		HugsLib
+		Questionable Ethics
+		Mods ...
+		RimJobWorld
+		This mod!
+	</description>
+</ModMetaData>
